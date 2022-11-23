@@ -793,9 +793,9 @@ else:
                        command=lambda: connects(clientType))
     connecter.pack()
 
-    combobox=customtkinter.CTkButton(master=root,text="Dark Theme",corner_radius=10,command=dark,state="normal")
+    combobox=customtkinter.CTkButton(master=root,text="Dark Mode",corner_radius=10,command=dark,state="normal")
     combobox.pack(side=LEFT)
-    combobox=customtkinter.CTkButton(master=root,text="Light Theme",corner_radius=10,command=light,state="normal")
+    combobox=customtkinter.CTkButton(master=root,text="Light Mode",corner_radius=10,command=light,state="normal")
     combobox.pack(side=LEFT)
 
     # ------------------------------------------------------------#
